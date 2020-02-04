@@ -560,7 +560,7 @@ func (p *phoneticData) t() {
 
 func (p *phoneticData) v() {
 	if p.matchesAny(-1, " ") { // *
-		p.add("f", "p")
+		p.add("f", "f")
 	} else {
 		p.add("f")
 	}
